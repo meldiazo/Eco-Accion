@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoAcción</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f6f5ff;
+            color: #001d4a;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #217743;
+            color: #ffffff;
+            padding: 1rem 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0.5rem 0 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: #e4e9f7;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #edd500;
+        }
+
+        main {
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        main h2 {
+            font-size: 2.5rem;
+            color: #217743;
+        }
+
+        main p {
+            font-size: 1.2rem;
+            color: #001d4a;
+            margin: 1rem auto;
+            max-width: 800px;
+        }
+
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 2rem;
+        }
+
+        .cta-buttons a {
+            text-decoration: none;
+            background-color: #eca400;
+            color: #ffffff;
+            padding: 0.8rem 1.5rem;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .cta-buttons a:hover {
+            background-color: #edb600;
+        }
+
+        .hero-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin: 1rem auto;
+        }
+
+        footer {
+            background-color: #217743;
+            color: #ffffff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>EcoAcción</h1>
+        <nav>
+            <ul>
+                <li><a href="mejores_proyectos/index.html">Mejores Proyectos</a></li>
+                <li><a href="donaciones/index.html">Donaciones</a></li>
+                <li><a href="consejos/index.html">Consejos</a></li>
+                <li><a href="centro_ayuda/index.html">Centro de Ayuda</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <h2>Bienvenido a EcoAcción</h2>
+        <img src="reforestacion.jpg" alt="Reforestación en Bolivia" class="hero-image">
+        <p>Conecta con proyectos para reforestar Bolivia y marca la diferencia. Participa en iniciativas que transforman vidas y preservan nuestro medio ambiente, apoyando esfuerzos para restaurar áreas afectadas por incendios y proteger nuestra biodiversidad.</p>
+        <div class="cta-buttons">
+            <a href="donaciones/index.html">Haz una Donación</a>
+            <a href="mejores_proyectos/index.html">Explora Proyectos</a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 EcoAcción. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
